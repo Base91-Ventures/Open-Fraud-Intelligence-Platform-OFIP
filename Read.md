@@ -4,7 +4,26 @@
 
 OFIP is a global open fraud intelligence framework with controlled governance. It's a universal platform for fraud detection across any domain, combining open-source collaboration with structured oversight.
 
-**Not just a tool** — a framework inspired by foundations like Linux and Apache, where contributors build and maintain fraud detection capabilities.
+## How It Works
+
+OFIP processes inputs through a simple rule-based engine to detect potential fraud.
+
+### Input
+- Documents (invoices, claims, transactions) in JSON or text format
+
+### Processing
+1. Parse input data
+2. Apply fraud detection rules
+3. Calculate risk score
+4. Generate alerts
+
+### Example Output
+```
+ID: INV001, Risk Score: 70
+Alerts: ['Duplicate invoice detected', 'Frequency spike detected']
+```
+
+Run `python demo.py` to see the system in action with sample data.
 
 ## Project Structure
 
