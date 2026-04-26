@@ -1,0 +1,97 @@
+{
+  "purchase_order": {
+    "description": "Standard purchase order invoice",
+    "required_fields": [
+      "vendor",
+      "amount",
+      "date",
+      "line_items"
+    ],
+    "suspicious_patterns": [
+      "test",
+      "fake",
+      "fraud",
+      "dummy"
+    ],
+    "high_value_threshold": 50000.0,
+    "sample_count": 0,
+    "fraud_count": 0,
+    "created_at": "2026-04-24T18:50:08.010538"
+  },
+  "travel_expense": {
+    "description": "Travel and expense reimbursement invoice",
+    "required_fields": [
+      "vendor",
+      "amount",
+      "date",
+      "description"
+    ],
+    "suspicious_patterns": [
+      "test",
+      "fake",
+      "personal",
+      "family"
+    ],
+    "high_value_threshold": 10000.0,
+    "sample_count": 0,
+    "fraud_count": 0,
+    "created_at": "2026-04-24T18:50:08.011608"
+  },
+  "consulting": {
+    "description": "Professional consulting services invoice",
+    "required_fields": [
+      "vendor",
+      "amount",
+      "date",
+      "hours"
+    ],
+    "suspicious_patterns": [
+      "test",
+      "fake",
+      "unknown",
+      "llc"
+    ],
+    "high_value_threshold": 75000.0,
+    "sample_count": 0,
+    "fraud_count": 0,
+    "created_at": "2026-04-24T18:50:08.012473"
+  },
+  "software_license": {
+    "description": "Software license and subscription invoice",
+    "required_fields": [
+      "vendor",
+      "amount",
+      "date",
+      "license_type"
+    ],
+    "suspicious_patterns": [
+      "test",
+      "fake",
+      "free",
+      "trial"
+    ],
+    "high_value_threshold": 100000.0,
+    "sample_count": 0,
+    "fraud_count": 0,
+    "created_at": "2026-04-24T18:50:08.017516"
+  },
+  "maintenance": {
+    "description": "Equipment/service maintenance invoice",
+    "required_fields": [
+      "vendor",
+      "amount",
+      "date",
+      "equipment"
+    ],
+    "suspicious_patterns": [
+      "test",
+      "fake",
+      "repair",
+      "fix"
+    ],
+    "high_value_threshold": 25000.0,
+    "sample_count": 0,
+    "fraud_count": 0,
+    "created_at": "2026-04-24T18:50:08.023220"
+  }
+}
