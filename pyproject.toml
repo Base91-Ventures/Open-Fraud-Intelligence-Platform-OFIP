@@ -1,0 +1,32 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ofip"
+version = "0.1.0"
+description = "Open Fraud Intelligence Platform"
+authors = [{name = "OFIP Team"}]
+readme = "Read.md"
+requires-python = ">=3.8"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "pydantic",
+    "python-multipart",
+    "opencv-python",
+    "pytesseract",
+    "numpy",
+    "pandas",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "black",
+    "flake8",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["api", "core", "ocr", "plugins"]

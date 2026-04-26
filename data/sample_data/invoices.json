@@ -1,0 +1,58 @@
+[
+  {
+    "id": "INV001",
+    "amount": 5000,
+    "date": "2023-10-01",
+    "user": "user1",
+    "status": "normal"
+  },
+  {
+    "id": "INV001",
+    "amount": 5000,
+    "date": "2023-10-02",
+    "user": "user1",
+    "status": "fraud_duplicate"
+  },
+  {
+    "id": "INV002",
+    "amount": 15000,
+    "date": "2023-10-01",
+    "user": "user2",
+    "status": "fraud_high_amount"
+  },
+  {
+    "id": "INV003",
+    "amount": 2000,
+    "date": "2023-10-01",
+    "user": "user1",
+    "status": "normal"
+  },
+  {
+    "id": "INV004",
+    "amount": 2000,
+    "date": "2023-10-02",
+    "user": "user1",
+    "status": "normal"
+  },
+  {
+    "id": "INV005",
+    "amount": 2000,
+    "date": "2023-10-03",
+    "user": "user1",
+    "status": "normal"
+  },
+  {
+    "id": "INV006",
+    "amount": 2000,
+    "date": "2023-10-04",
+    "user": "user1",
+    "status": "normal"
+  },
+  {
+    "id": "INV007",
+    "amount": 2000,
+    "date": "2023-10-05",
+    "user": "user1",
+    "status": "fraud_frequency_spike"
+  }
+]

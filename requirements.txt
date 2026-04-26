@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+python-multipart
+opencv-python
+pytesseract
+numpy
+pandas
+pytest
+black
+flake8
